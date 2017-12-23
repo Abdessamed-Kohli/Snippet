@@ -1,5 +1,7 @@
 
 
+get-childitem *.mp3 | foreach { rename-item $_ $_.Name.Replace("Radiohead -", "") }
+
 Rename/truncate file names with Windows Batch January 26, 2013
 http://minhou-tech.webtegration.com/blog/2013/01/26/renametruncate-file-names-with-windows-batch/
 
